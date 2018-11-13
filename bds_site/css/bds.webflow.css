@@ -207,7 +207,7 @@ p {
   padding-top: 0px;
   padding-bottom: 0px;
 
-  background-color: #282b2d;
+  background-color: #132a41;
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,6 +218,11 @@ p {
 .logo-medium {
   width: 50%;
   padding-right: 40px;
+}
+
+.logo-small {
+  width: 5%;
+  padding-bottom: 10px;
 }
 
 .section.hero-section.work-item-1 {
@@ -266,7 +271,7 @@ p {
   margin-left: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #212026;
+  background-color: #132a41;
   box-shadow: 0 0 6px 0 rgba(27, 26, 31, .97);
   text-align: center;
 }
@@ -767,7 +772,7 @@ p {
   margin-right: auto;
   margin-bottom: 45px;
   margin-left: auto;
-  opacity: 0.31;
+  opacity: 0.41;
 }
 
 .footer-link {

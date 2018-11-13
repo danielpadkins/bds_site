@@ -115,7 +115,7 @@ p {
   padding: 9px 15px;
   -webkit-transition: color 400ms ease;
   transition: color 400ms ease;
-  color: #9a84e0;
+  color: #1992d1;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -123,25 +123,25 @@ p {
 }
 
 .nav-link:hover {
-  color: #48e0a4;
+  color: #9a84e0;
 }
 
 .nav-link:active {
-  color: #48e0a4;
+  color: #9a84e0;
 }
 
 .nav-link.w--current {
-  color: #84dfce;
+  color: #9384df;
 }
 
 .nav-link.button-link {
   margin-top: 19px;
   margin-left: 20px;
   padding: 2px 8px 1px;
-  border: 1px solid #9ed9c1;
+  border: 1px solid #85aed8;
   border-radius: 4px;
   background-color: transparent;
-  color: #77c9a8;
+  color: #1992d1;
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 3px;
@@ -152,17 +152,17 @@ p {
   margin-right: 15px;
   margin-left: 0px;
   float: right;
-  border: 1px solid #a894eb;
+  border: 1px solid #85aed8;
   background-color: transparent;
   -webkit-transition: color 400ms ease, border-color 400ms ease;
   transition: color 400ms ease, border-color 400ms ease;
-  color: #9178e3;
+  color: #1992d1;
   font-weight: 600;
 }
 
 .nav-link.button-link.fixed-button-link:hover {
-  border-color: #1cad73;
-  color: #1cad73;
+  border-color: #c5b9eb;
+  color: #9a84e0;
 }
 
 .nav-link.button-link.fixed-button-link.w--current {
@@ -318,7 +318,7 @@ p {
 
 .green-text {
   display: inline-block;
-  color: #48e0a4;
+  color: #9a84e0;
 }
 
 .green-text.highlight {
@@ -349,8 +349,8 @@ p {
   top: 50%;
   width: 88%;
   height: 88%;
-  background-image: -webkit-linear-gradient(180deg, #48e0a4, #27a395 40%, #48e0a4 47%, #48e0a4 48%, #fff 0, transparent 0), -webkit-linear-gradient(90deg, #fff 50%, #48e0a4 0);
-  background-image: linear-gradient(270deg, #48e0a4, #27a395 40%, #48e0a4 47%, #48e0a4 48%, #fff 0, transparent 0), linear-gradient(0deg, #fff 50%, #48e0a4 0);
+  background-image: -webkit-linear-gradient(180deg, #9a84e0, #27a395 40%, #9a84e0 47%, #9a84e0 48%, #fff 0, transparent 0), -webkit-linear-gradient(90deg, #fff 50%, #9a84e0 0);
+  background-image: linear-gradient(270deg, #9a84e0, #27a395 40%, #9a84e0 47%, #9a84e0 48%, #fff 0, transparent 0), linear-gradient(0deg, #fff 50%, #9a84e0 0);
   -webkit-transform: translate(0px, -50%);
   -ms-transform: translate(0px, -50%);
   transform: translate(0px, -50%);
@@ -366,7 +366,7 @@ p {
   -webkit-transform: translate(0px, -50%);
   -ms-transform: translate(0px, -50%);
   transform: translate(0px, -50%);
-  color: #48e0a4;
+  color: #9a84e0;
   font-size: 40px;
   text-transform: uppercase;
 }

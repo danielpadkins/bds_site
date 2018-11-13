@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.logo-medium {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.logo-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-item {
+  
+}
+
+.service-item h1 {
+    text-align: center;
+    
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.service-item.earth {
+    background: linear-gradient(#020202, transparent), url('../images/nature/earth.jpg');
+    background-size: cover;
+
+}
+
+.service-item.moon {
+    background: linear-gradient(#020202, transparent), url('../images/nature/moon.jpg');
+    background-size: cover;
+}
+
+.service-item.stars {
+    background: linear-gradient(#020202, transparent), url('../images/nature/stars.jpg');
+    background-size: cover;
+}
+
+.service-item.black-hole {
+    background: linear-gradient(#020202, transparent), url('../images/nature/black-hole.jpg');
+    background-size: cover;
+}
+
+.service-item .section-heading {
+    color: white;
+
+}

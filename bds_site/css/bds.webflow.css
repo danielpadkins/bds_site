@@ -289,7 +289,7 @@ p {
 }
 
 .hero-h1 {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 34%;
   right: 0px;

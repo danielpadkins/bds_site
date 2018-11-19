@@ -115,7 +115,7 @@ p {
   padding: 9px 15px;
   -webkit-transition: color 400ms ease;
   transition: color 400ms ease;
-  color: #1992d1;
+  color: white;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -123,25 +123,25 @@ p {
 }
 
 .nav-link:hover {
-  color: #9a84e0;
+  color: #ee6978;
 }
 
 .nav-link:active {
-  color: #9a84e0;
+  color: #ee6978;
 }
 
 .nav-link.w--current {
-  color: #9384df;
+  color: #ff78a3;
 }
 
 .nav-link.button-link {
   margin-top: 19px;
   margin-left: 20px;
   padding: 2px 8px 1px;
-  border: 1px solid #85aed8;
+  border: 1px solid lightgray;
   border-radius: 4px;
   background-color: transparent;
-  color: #1992d1;
+  color: white;
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 3px;
@@ -152,17 +152,17 @@ p {
   margin-right: 15px;
   margin-left: 0px;
   float: right;
-  border: 1px solid #85aed8;
+  border: 1px solid lightgray;
   background-color: transparent;
   -webkit-transition: color 400ms ease, border-color 400ms ease;
   transition: color 400ms ease, border-color 400ms ease;
-  color: #1992d1;
+  color: white;
   font-weight: 600;
 }
 
 .nav-link.button-link.fixed-button-link:hover {
-  border-color: #c5b9eb;
-  color: #9a84e0;
+  border-color: #f27b89;
+  color: #ee6978;
 }
 
 .nav-link.button-link.fixed-button-link.w--current {
@@ -234,13 +234,13 @@ p {
 .section.about-section {
   z-index: 1;
   padding-bottom: 0px;
-  background-color: #4b5257;
+  background-color: white;
   text-align: center;
 }
 
 .section.work-section {
   z-index: 1;
-  background-color: #4b5257;
+  background-color: white;
   box-shadow: 0 -4px 7px -6px rgba(19, 66, 47, .72);
 }
 
@@ -291,7 +291,7 @@ p {
 .hero-h1 {
   position: absolute;
   left: 0px;
-  top: 34%;
+  top: 24%;
   right: 0px;
   display: block;
   max-width: 1120px;
@@ -387,7 +387,7 @@ p {
 }
 
 .meet-section-backdrop {
-  background-color: #4b5257;
+  background-color: white;
   background-size: cover, contain;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, scroll;
@@ -400,7 +400,7 @@ p {
 .section-heading {
   margin-top: 0px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #132a41;
   font-size: 15px;
   line-height: 21px;
   font-weight: 700;
@@ -925,7 +925,14 @@ p {
 
 .meet-heading {
   margin-bottom: 20px;
+  text-align: center;
 }
+
+
+.section-heading.center {
+  text-align: center;
+}
+
 
 .loading-image {
   opacity: 0.67;
@@ -997,7 +1004,7 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     z-index: 10000;
     margin-top: -8px;
     padding-bottom: 20px;
-    background-color: hsla(0, 0%, 100%, .9);
+    background-color: rgba(54, 65, 77, 0.9);
   }
   .nav-link {
     display: block;
@@ -1074,9 +1081,13 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     margin-top: -18px;
     font-size: 32px;
   }
+  .menu-button:hover {
+    background-color: #132a41;
+    color: #fcbec5;
+  }
   .menu-button.w--open {
-    background-color: #fff;
-    color: #9a84e0;
+    background-color: #132a41;
+    color: #ee6978;
   }
 }
 

@@ -87,7 +87,7 @@ p {
   right: 0px;
   margin-right: 18px;
   margin-left: 18px;
-  padding-top: 35px;
+  padding-top: 30px;
   padding-bottom: 26px;
   background-color: transparent;
 }
@@ -203,7 +203,7 @@ p {
   right: 0px;
   bottom: 0px;
   height: 102%;
-  margin-top: 110px;
+  margin-top: 79px;
   padding-top: 0px;
   padding-bottom: 0px;
 
@@ -848,7 +848,7 @@ p {
   overflow: hidden;
   height: 90px;
   box-shadow: none;
-  background-color: white;
+  background-color: #132a41;
 }
 
 .short-wide-image {
@@ -1060,8 +1060,6 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
   }
   .fixed-header {
     overflow: visible;
-    margin-right: 10px;
-    margin-left: 10px;
   }
   .slide {
     font-size: 20px;
@@ -1152,9 +1150,7 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     margin-left: 20px;
   }
   .fixed-header {
-    height: 80px;
-    margin-right: 10px;
-    margin-left: 10px;
+    height: 90px;
   }
   .slide {
     font-size: 13px;
@@ -1181,7 +1177,6 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
   }
   .section.hero-section {
     margin-top: 80px;
-
   }
   .hero-h1 {
     font-size: 29px;

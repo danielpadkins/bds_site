@@ -655,15 +655,16 @@ p {
 }
 
 .plus-box {
+  background-color: hsla(0, 0%, 98%, .86);
   display: block;
-  width: 55px;
-  height: 55px;
+  width: 180px;
+  height: 80px;
   margin: 10px auto;
-  padding-top: 15px;
+  padding-top: 25px;
   border: 1px solid hsla(0, 0%, 100%, .49);
   font-family: Lato, sans-serif;
-  color: hsla(0, 0%, 100%, .68);
-  font-size: 40px;
+  color: #132a41;
+  font-size: 30px;
   font-style: normal;
   font-weight: 200;
 }

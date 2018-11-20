@@ -131,7 +131,7 @@ p {
 }
 
 .nav-link.w--current {
-  color: #ff78a3;
+  color: #e45a6a;
 }
 
 .nav-link.button-link {
@@ -799,7 +799,7 @@ p {
   color: hsla(219, 8%, 59%, .9);
   font-size: 17px;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 

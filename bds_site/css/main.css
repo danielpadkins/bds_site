@@ -101,7 +101,31 @@ Coral: ee6978
   color: #0e1c33;
 }
 
+.learn-button {
+    margin-top: 6px;
+    margin-right: 15px;
+    margin-left: 0px;
+    padding: 2px 8px 1px;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
 
+    border: 1px solid #0f2031;
+    background-color: transparent;
+    -webkit-transition: color 400ms ease, border-color 400ms ease;
+    transition: color 400ms ease, border-color 400ms ease;
+    color: #132a41;
+    font-weight: 600;
+  }
+  
+.learn-button:hover {
+    border-color: #f27b89;
+    color: #ee6978;
+}
+  
 
 
 input[type='checkbox'] {
@@ -143,7 +167,7 @@ input[type='checkbox'] {
     max-height: 0px;
     overflow: hidden;
   
-    transition: max-height .25s ease-in-out;
+    transition: max-height .7s ease-in-out;
   }
   .toggle:checked + .label-toggle + .collapsible-content {
     max-height: 350px;

@@ -8,6 +8,7 @@ Coral: ee6978
 
 */
 
+
 .logo-medium {
     width: 500px;
     margin-left: 20px;
@@ -91,7 +92,7 @@ Coral: ee6978
 .select-underline:after {
   content: "";
   width: 0px;
-  height: 3px;
+  height: 2px;
   display: block;
   background: #ee6978;
   transition: 300ms;

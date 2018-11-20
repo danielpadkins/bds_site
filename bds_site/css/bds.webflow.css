@@ -61,11 +61,12 @@ p {
 }
 
 .button {
+  padding: 2px px 10px;
+
+  outline: none;
   display: inline-block;
-  padding: 15px;
-  background-color: rgba(72, 224, 164, .54);
-  color: #284238;
-  font-size: 16px;
+  color: #132a41;
+  font-size: 12px;
   line-height: 22px;
   font-weight: 700;
   text-align: center;
@@ -73,6 +74,16 @@ p {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.button:hover {
+  color: #1d3a57;
+}
+
+.button:active,
+.button.is-checked {
+  color: #ee6978;
+}
+
 
 .full {
   position: relative;

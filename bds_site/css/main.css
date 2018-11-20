@@ -18,7 +18,8 @@ Coral: ee6978
 }
 
 .logo-main {
-    width: 500px;
+    width: auto;
+    height: 35vh;
 }
 
 .center-container {

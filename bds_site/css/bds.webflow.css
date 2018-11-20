@@ -415,7 +415,7 @@ p {
 .section-heading.featured {
   margin-top: 8px;
   margin-bottom: 8px;
-  color: #c4c4c4;
+  color: #132a41;
   font-size: 11px;
   font-weight: 400;
   text-align: center;
@@ -549,7 +549,7 @@ p {
 
 .work-item.short {
   width: 94%;
-  height: 208px;
+  height: 300px;
   margin-top: 18px;
   margin-bottom: 0px;
 }

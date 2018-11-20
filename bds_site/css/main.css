@@ -21,12 +21,63 @@ Coral: ee6978
     width: 500px;
 }
 
+.center-container {
+    text-align: center
+}
+
+.divider-small {
+    width: 20px;
+    padding-bottom: 20px;
+}
+
+.navy-text {
+    display: inline-block;
+    color: #132a41;
+}
+
+.navy-text.card {
+    margin-left: 20px;
+    padding-right: 10px;
+    text-align: left;
+}
+.sub-heading-navy {
+    display: inline-block;
+    color: #132a41;
+    text-align: left !important;
+}
+
 .logo-hover {
     background-image: url('../images/logos/logosmall.png');
     height: 40px;
     width: 40px;
     opacity: 0.41;
     padding-bottom: 10px;
+}
+
+.card-outline {
+    padding: 15px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+
+.select-underline {
+  display: inline-block;
+}
+
+.select-underline:after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: #ee6978;
+  transition: 300ms;
+}
+
+.select-underline:hover:after {
+  width: 100%;
+  color: #0e1c33;
 }
 
 .service-item {
@@ -44,28 +95,8 @@ Coral: ee6978
 
 }
 
-.service-item.earth {
-    background: linear-gradient(#020202, transparent), url('../images/nature/earth.jpg');
-    background-size: cover;
-
-}
-
-.service-item.moon {
-    background: linear-gradient(#020202, transparent), url('../images/nature/moon.jpg');
-    background-size: cover;
-}
-
-.service-item.stars {
-    background: linear-gradient(#020202, transparent), url('../images/nature/stars.jpg');
-    background-size: cover;
-}
-
-.service-item.black-hole {
-    background: linear-gradient(#020202, transparent), url('../images/nature/black-hole.jpg');
-    background-size: cover;
-}
-
 .service-item .section-heading {
-    color: white;
-
+    color: #132a41;
+    font-weight: 700;
+    font-size: 14px;
 }

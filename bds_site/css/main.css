@@ -41,6 +41,7 @@ Coral: ee6978
     text-align: left;
 }
 .sub-heading-navy {
+    margin-left: 3%;
     display: inline-block;
     color: #132a41;
     text-align: left !important;
@@ -61,6 +62,12 @@ Coral: ee6978
     text-align: center;
 }
 
+.card-datathon {
+    padding: 15px;
+    height: 300px;
+    width: auto;
+    text-align: center;
+}
 
 .select-underline {
   display: inline-block;

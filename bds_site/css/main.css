@@ -128,8 +128,6 @@ Coral: ee6978
     color: #ee6978;
 }
   
-
-
 input[type='checkbox'] {
     display: none;
   }
@@ -179,11 +177,6 @@ input[type='checkbox'] {
     transform: rotate(90deg) translateX(-3px);
   }  
 
-
-
-.service-item {
-  
-}
 
 .service-item h1 {
     text-align: center;

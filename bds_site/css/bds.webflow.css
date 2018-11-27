@@ -62,7 +62,7 @@ p {
 
 .button {
   padding: 2px px 10px;
-
+  background: transparent;
   outline: none;
   display: inline-block;
   color: #132a41;

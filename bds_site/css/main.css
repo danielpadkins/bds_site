@@ -67,10 +67,18 @@ Coral: ee6978
 
 .card-outline {
     padding: 15px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     text-align: center;
 }
+
+.team-image {
+    padding: 15px;
+    height: 175px;
+    width: 175px;
+    text-align: center;
+}
+
 
 .card-datathon {
     padding: 15px;

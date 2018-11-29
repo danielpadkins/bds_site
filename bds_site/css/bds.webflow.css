@@ -317,12 +317,27 @@ p {
   
 }
 
+.hero-h1.datathon {
+  top: 10%;
+}
+
+.hero-h1.datathon-logo {
+  top: 35%;
+}
+
+
 .sub-h1 {
-  display: inline-block;
-  color: hsla(0, 0%, 100%, .2);
+  position: absolute;
+  display: block;
+  left: 0px;
+  text-align: center;
+  top: 50%;
+  right: 0px;
+  color: rgba(236, 236, 252, 1);
   font-size: 35px;
   line-height: 45px;
   font-weight: 200;
+  transition: 300ms ease;
 }
 
 .white-text {
@@ -1128,6 +1143,8 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     line-height: 70px;
   }
   .sub-h1 {
+    font-size: 25px;
+    transition: 300ms ease;
     line-height: 55px;
   }
   .white-text {
@@ -1213,8 +1230,9 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     line-height: 34px;
   }
   .sub-h1 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
+    transition: 300ms ease;
   }
   .white-text {
     margin-bottom: -24px;

@@ -21,25 +21,72 @@ Coral: ee6978
 .logo-main {
     width: auto;
     height: 35vh;
+    transition: 300ms ease;
 }
+
+.logo-main.datathon {
+    width: auto;
+    height: 20vh;
+}
+
+.logo-sub {
+    width: auto;
+    height: 8vh;
+    transition: 300ms ease;
+}
+
 
 @media (max-width: 700px) {
     .logo-main {
         height: 25vh;
     }
+    .logo-main.datathon {
+        height: 16vh;
+    }
+    .logo-sub {
+        height: 6vh;
+    }    
 }
 
 @media (max-width: 480px) {
     .logo-main {
         height: 18vh;
     }
+    .logo-main.datathon {
+        height: 10vh;
+    }
+    .logo-sub {
+        height: 4vh;
+    }   
 }
 
 @media (max-width: 300px) {
     .logo-main {
         height: 12vh;
     }
+    .logo-main.datathon {
+        height: 10vh;
+    }
+    .logo-sub {
+        height: 2vh;
+    }    
 }
+
+.form-button {
+    font-size: 15pt !important;
+}
+
+.form-button:hover {
+    border-color: #f27b89;
+    color: #ee6978;  
+}
+
+.small-bear-logo {
+    display: block;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: auto;
+  }  
 
 .center-container {
     text-align: center
@@ -63,6 +110,10 @@ Coral: ee6978
     text-align: left;
 }
 
+.navy-text.left.list {
+    font-size: 12pt;
+}
+
 .navy-text.card {
     padding-left: 5px;
     padding-right: 5px;
@@ -72,12 +123,20 @@ Coral: ee6978
     margin-left: 3%;
     display: inline-block;
     color: #132a41;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left !important;
 }
 
 .sub-heading-navy.large {
     font-size: 28px;
+}
+
+.sub-heading-navy.datathon {
+    margin-top: 40px;
+}
+
+li {
+    margin-bottom: 15px;
 }
 
 .logo-hover {

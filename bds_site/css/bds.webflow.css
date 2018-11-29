@@ -1046,7 +1046,8 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     padding-bottom: 19px;
     text-align: center;
   }
-  .nav-link.button-link.fixed-button-link {
+  .nav-link.button-link.fixed-button-link,
+  .nav-link.button-link.form-button {
     display: inline-block;
     margin-right: auto;
     margin-left: auto;

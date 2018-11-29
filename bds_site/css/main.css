@@ -3,11 +3,20 @@
 
 /* Colors:
 
-Navy: 132a41
-Coral: ee6978
+Navy: #132a41
+Coral: #ee6978
 
 */
+a {
+    text-decoration: none !important;
+}
+.coral {
+    color: #ee6978;
+}
 
+.coral.bold {
+    font-weight: 700;
+}
 
 .logo-medium {
     width: 500px;
@@ -101,13 +110,19 @@ Coral: ee6978
     margin-left: 3%;
 }
 
+.workshop-picture {
+    max-width: 280px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
 .navy-text {
     display: inline-block;
     color: #132a41;
 }
 
 .navy-text.left {
-    text-align: left;
+    text-align: left !important;
 }
 
 .navy-text.left.list {
@@ -138,6 +153,38 @@ Coral: ee6978
 li {
     margin-bottom: 15px;
 }
+
+.workshop {
+    margin-top: 35px;
+}
+
+.event {
+	margin-top: 35px;
+	text-align: left;
+}
+
+.event h4 {
+	font-weight: bold;
+}
+
+.event-name {
+	display: flex;
+	justify-content: space-between;
+}
+
+.event-day {
+	border-radius: 30px;
+    padding: 50px;
+}
+
+.navy {
+    background-color: #132a41;
+}
+
+.white {
+    color: #fff;
+}
+
 
 .logo-hover {
     background-image: url('../images/logos/logosmall.png');

@@ -23,6 +23,24 @@ Coral: ee6978
     height: 35vh;
 }
 
+@media (max-width: 700px) {
+    .logo-main {
+        height: 25vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-main {
+        height: 18vh;
+    }
+}
+
+@media (max-width: 300px) {
+    .logo-main {
+        height: 12vh;
+    }
+}
+
 .center-container {
     text-align: center
 }
@@ -54,7 +72,12 @@ Coral: ee6978
     margin-left: 3%;
     display: inline-block;
     color: #132a41;
+    font-size: 18px;
     text-align: left !important;
+}
+
+.sub-heading-navy.large {
+    font-size: 28px;
 }
 
 .logo-hover {

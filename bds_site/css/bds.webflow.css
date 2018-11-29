@@ -55,8 +55,10 @@ p {
   display: block;
   max-width: 615px;
   margin: 0px auto 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: #9ba9b3;
-  font-size: 15px;
+  font-size: 12pt;
   line-height: 22px;
 }
 
@@ -412,7 +414,7 @@ p {
   margin-top: 0px;
   margin-bottom: 20px;
   color: #132a41;
-  font-size: 15px;
+  font-size: 22px;
   line-height: 21px;
   font-weight: 700;
   letter-spacing: 1px;

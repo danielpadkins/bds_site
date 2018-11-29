@@ -56,7 +56,7 @@ p {
   max-width: 615px;
   margin: 0px auto 5px;
   color: #9ba9b3;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
 }
 
@@ -127,7 +127,7 @@ p {
   -webkit-transition: color 400ms ease;
   transition: color 400ms ease;
   color: white;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;

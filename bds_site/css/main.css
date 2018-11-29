@@ -90,9 +90,17 @@ Coral: ee6978
 .sponsor.large {
     height: auto;
     width: 300px;
-    opacity: 0.5;
+    opacity: 1;
     transition: 300ms;
 }
+
+.sponsor.small {
+    height: auto;
+    width: 150px;
+    opacity: 1;
+    transition: 300ms;
+}
+
 
 .sponsor:hover {
     opacity: 1;

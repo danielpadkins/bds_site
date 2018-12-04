@@ -228,6 +228,17 @@ p {
   box-shadow: 0 -1px 7px -1px rgba(70, 79, 76, .14);
 }
 
+.section.hero-section {
+  height: auto;
+}
+
+.section.conduct-section {
+  height: auto;
+  margin-top: 0;
+  top: 15%;
+}
+
+
 .logo-medium {
   width: 50%;
   padding-right: 40px;
@@ -279,7 +290,7 @@ p {
   position: relative;
   z-index: 1;
   display: block;
-  margin-top: 175px;
+  margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
   border-top-left-radius: 10px;
@@ -595,7 +606,12 @@ p {
 }
 
 .work-item.short.right.short-right-image-1 {
-  background-image: url('../images/mag.jpg');
+  background-image: url('../images/main/datathon.jpg');
+  background-size: cover;
+}
+
+.work-item.short.right.short-right-image-2 {
+  background-image: url('../images/main/workshops.jpg');
   background-size: cover;
 }
 

@@ -7,6 +7,22 @@ Navy: #132a41
 Coral: #ee6978
 
 */
+.navy-body {
+    background-color: #132a41;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    min-height: 100%;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.full {
+    height: auto;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -16,6 +32,10 @@ a {
 
 .coral.bold {
     font-weight: 700;
+}
+
+.coral:hover {
+    color: #ee6978;
 }
 
 .logo-medium {
@@ -197,14 +217,14 @@ li {
 .card-outline {
     padding: 15px;
     height: 150px;
-    width: 150px;
+    width: auto;
     text-align: center;
 }
 
 .team-image {
     padding: 15px;
-    height: 175px;
-    width: 175px;
+    height: 165px;
+    width: 165px;
     text-align: center;
 }
 

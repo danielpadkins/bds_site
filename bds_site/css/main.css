@@ -131,7 +131,8 @@ a {
 }
 
 .workshop-picture {
-    max-width: 280px;
+    height: auto;
+    width: 280px;
     padding-top: 35px;
     padding-bottom: 15px;
 }
@@ -176,6 +177,8 @@ li {
 
 .workshop {
     margin-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;   
 }
 
 .event {

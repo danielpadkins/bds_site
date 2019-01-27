@@ -455,15 +455,21 @@ p {
   margin-top: 8px;
   margin-bottom: 8px;
   color: #132a41;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   text-align: center;
 }
 
 .section-heading.featured.descript {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
 }
+
+.section-heading.featured.founder {
+  font-size: 12px;
+  font-weight: 600;
+}
+
 
 .section-heading.contact-heading {
   margin-bottom: 10px;

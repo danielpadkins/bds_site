@@ -228,6 +228,24 @@ p {
   box-shadow: 0 -1px 7px -1px rgba(70, 79, 76, .14);
 }
 
+.section.day-of {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 102%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  background-color: #132a41;
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 0 -1px 7px -1px rgba(70, 79, 76, .14);
+}
+
 .section.hero-section {
   height: auto;
 }
@@ -350,6 +368,23 @@ p {
   font-weight: 200;
   transition: 300ms ease;
 }
+
+.sub-h3 {
+  position: absolute;
+  display: block;
+  left: 0px;
+  text-align: center;
+  top: 60%;
+  right: 0px;
+  color: rgba(236, 236, 252, 1);
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 45px;
+  font-weight: 200;
+  transition: 300ms ease;
+}
+
 
 .white-text {
   display: inline-block;

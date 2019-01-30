@@ -23,6 +23,10 @@ Coral: #ee6978
     height: auto;
 }
 
+.left {
+    text-align: left !important;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -49,7 +53,7 @@ a {
 
 .logo-main {
     width: auto;
-    height: 35vh;
+    height: 30vh;
     transition: 300ms ease;
 }
 
@@ -75,6 +79,9 @@ a {
     .logo-sub {
         height: 6vh;
     }
+    .logo-main.welcomeBanner {
+        height: 20vh;
+    }
 }
 
 @media (max-width: 480px) {
@@ -86,6 +93,9 @@ a {
     }
     .logo-sub {
         height: 4vh;
+    }
+    .logo-main.welcomeBanner {
+        height: 13vh;
     }
 }
 
@@ -267,6 +277,7 @@ li {
 
 .select-underline {
   display: inline-block;
+  color: #132a41;
 }
 
 .select-underline:after {
@@ -277,6 +288,11 @@ li {
   background: #ee6978;
   transition: 300ms;
 }
+
+a:active {
+    color: #ee6978;
+    transition: 300ms;
+  }
 
 .select-underline:hover:after {
   width: 100%;

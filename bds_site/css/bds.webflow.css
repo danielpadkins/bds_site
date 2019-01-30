@@ -593,6 +593,13 @@ p {
   margin-top: 19px;
 }
 
+.work-item.medium {
+  height: 325px;
+  margin-top: 19px;
+}
+
+
+
 .work-item.tall.tall-image-1 {
   background-image: url('../images/cards-angle.jpg');
   background-size: cover;
@@ -936,7 +943,7 @@ p {
   top: 0px;
   right: 0px;
   z-index: 1001;
-  overflow: hidden;
+  overflow: visible;
   height: 90px;
   box-shadow: none;
   background-color: #132a41;

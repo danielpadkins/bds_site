@@ -894,10 +894,8 @@ p {
   left: 1px;
   margin-bottom: 15px;
   color: hsla(219, 8%, 59%, .9);
-  font-size: 17px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 .social-icon {

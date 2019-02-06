@@ -166,10 +166,7 @@ a {
 }
 
 .navy-text.card.track {
-    font-size: 10.1pt;
     text-align: justify;
-    min-height: 500px;
-    overflow: scroll;
 }
 
 .sub-heading-navy {

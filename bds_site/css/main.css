@@ -420,3 +420,7 @@ input[type="checkbox"] {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
+.justify {
+	text-align: justify;
+}

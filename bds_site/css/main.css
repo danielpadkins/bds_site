@@ -179,6 +179,8 @@ a {
 
 .sub-heading-navy.large {
 	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
 }
 
 .sub-heading-navy.datathon {
